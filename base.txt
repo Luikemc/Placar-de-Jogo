@@ -1,0 +1,21 @@
+	TABELA DE FORMAÇÃO DE TIMES E ESTRATEGIAS.
+
+* Vai funcionar com base nas notas de jogadores. Sendo essas notas de 1 a 5.
+
+*O programa vai separar e dividir os individuos com mesma nota. 
+
+*Vai pegar informações sobre qual a melhor caracteristica do individo e qual a maior dificuldade.
+
+*Apos pegar todos esses dados, deve-se escolher a melhor posição para coloca-lo.
+	
+	NOTAS
+
+*Pessoas nota 5, Fazem um diferencial em algum aspecto do volei, sendo atk, def, levantamento.
+
+*Pessoas nota 4, são pessoas com todos os fundamentos e de confiança, mas que não demonstra uma aspecto de difencial. 
+
+*Pessoas nota 3, são aquelas que tem mais dificuldade em 1 ou mais aspectos, porem consegue se virar e ajudar o time.
+
+*Pessoas nota 2, são aqueles que tem uma dificuldade muito grande em algum aspecto, e que muitas das vezes atrapalha o desenvolvimento do time.
+
+*Pessoas nota 1, são aquelas que não conseguem fazer muito, são boas em mais ou menos 1 habilidade, mas mesmo assim mais atrapalha do que ajuda. 

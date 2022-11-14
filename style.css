@@ -1,0 +1,105 @@
+div.tela {
+  width: 600px;
+  height: 200px;
+  background-color: black;
+  margin: auto;
+  border-radius: 10px
+}
+
+div.telaTime1 {
+  position: absolute;
+  top: 8px;
+  width: 300px;
+  height: 200px;
+  left: 467px;
+  background-color: rgb(99, 7, 7);
+  margin: auto;
+  border-radius: 10px
+}
+
+div.telaTime2 {
+  position: absolute;
+  top: 8px;
+  width: 300px;
+  height: 200px;
+  left: 770px;
+  background-color: rgb(35, 7, 99);
+  margin: auto;
+  border-radius: 10px
+}
+        
+h2.titulo1{
+  position: absolute;
+  top: 10px;
+  left: 550px;
+  font-size: 35px;
+  color: rgb(194, 194, 194);
+  text-shadow: 0px 0px 5px rgb(195, 9, 9);
+  margin: auto;
+}
+h2.titulo2{
+  position: absolute;
+  top: 10px;
+  left: 870px;
+  font-size: 35px;
+  color: rgb(194, 194, 194);
+  text-shadow: 0px 0px 5px rgb(195, 9, 9);
+  margin: auto;
+}
+
+button.butao1{
+  position: absolute;
+  top: 160px;
+  right: 900px;
+  background: rgb(156, 23, 208);
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+  margin: auto;
+}
+button.butao2{
+  position: absolute;
+  top: 160px;
+  right: 580px;
+  background: rgb(156, 23, 208);
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+  margin: auto;
+}
+
+h3.ponto1{
+  position: absolute;
+  top: 70px;
+  left: 900px;
+  font-size: 70px;
+  color: rgb(194, 194, 194);
+  text-shadow: 0px 0px 5px rgb(195, 9, 9);
+  margin: auto;
+}
+h3.ponto2{
+  position: absolute;
+  top: 70px;
+  left: 590px;
+  font-size: 70px;
+  color: rgb(194, 194, 194);
+  text-shadow: 0px 0px 5px rgb(195, 9, 9);
+  margin: auto;
+}
+
+button.reset{
+  position: absolute;
+  top: 160px;
+  right: 730px;
+  background: rgb(15, 96, 178);
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+  margin: auto;
+}
