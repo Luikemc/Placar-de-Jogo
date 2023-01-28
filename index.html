@@ -1,29 +1,32 @@
-<html>
-    <body>
-        <head>
-            <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-            <title>
-                APK VOLLEYBOL
-            </title>
-        </head>
-        <div class="tela"></div>
-        <div class="telaTime1"></div>
-        <div class="telaTime2"></div>
-        <h2 class="titulo1">TIME 1</h2>
-        <h2 class="titulo2">TIME 2</h2>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PLACAR</title>
+</head>
+<body>
+    <div class="placar">
+        <section id="p1">
+        <h1>TIME A</h1>
+        <h3 id="pr1">0</h3>
+        <button onclick="incrementClick1()" class="butao1" >+ 1</button>
+    </section>
+    <button onclick="resetCounter()" class="reset"> Reset</button>
+    <section id="p2">
+        <h1>TIME B</h1>
+        <h3 id="pr2">0</h3>
+        <button onclick="incrementClick2()" class="butao2">+ 1</button>
+    </section>
+   
+        
+        <script src="contador.js"></script> 
+ 
+    </div>
+</body>
 
-        
-           <div> <h3 class="ponto1" id="placar2">0</h3></div>
-           <div> <h3 class="ponto2" id="placar1">0</h3></div>
-        
 
-        <div>
-            <button onclick="incrementClick1()" class="butao1" >+ 1</button>
-            <button onclick="incrementClick2()" class="butao2">+ 1</button>
-            <button onclick="resetCounter()" class="reset"> Reset</button>
-            <script src="contador.js"></script> 
-        </div>
-        
-        <script src="contador.js"></script>
-    </body>
-    
+
+</html>
