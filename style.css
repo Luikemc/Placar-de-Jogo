@@ -1,99 +1,65 @@
-
-
-div.telaTime1 {
-  position: absolute;
-  top: 8px;
-  width: 300px;
-  height: 200px;
-  left: 467px;
-  background-color: rgb(99, 7, 7);
-  margin: auto;
-  border-radius: 10px
+body{
+  background-color: black;
+  margin: 0px;
 }
 
-div.telaTime2 {
-  position: absolute;
-  top: 8px;
-  width: 300px;
-  height: 200px;
-  left: 770px;
-  background-color: rgb(35, 7, 99);
-  margin: auto;
-  border-radius: 10px
-}
-        
-h2.titulo1{
-  position: absolute;
-  top: 10px;
-  left: 550px;
-  font-size: 35px;
-  color: rgb(194, 194, 194);
-  text-shadow: 0px 0px 5px rgb(195, 9, 9);
-  margin: auto;
-}
-h2.titulo2{
-  position: absolute;
-  top: 10px;
-  left: 870px;
-  font-size: 35px;
-  color: rgb(194, 194, 194);
-  text-shadow: 0px 0px 5px rgb(195, 9, 9);
-  margin: auto;
+.placar{
+  
+    padding: 40px 40px;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-button.butao1{
-  position: absolute;
-  top: 160px;
-  right: 900px;
-  background: rgb(156, 23, 208);
-  color: white;
-  font-size: 20px;
-  padding: 8px 20px;
+.placar h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+}
+
+#p1{
+    background-color: magenta;
+}
+
+#p2{
+    background-color: teal;
+}
+
+section h3{
+  text-align: center;
+  top: -100px;
+  position: relative;
+  font-size: 100px;
+}
+.reset{
+  position: relative;
+  top: 100px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(163, 163, 238);
   cursor: pointer;
-  border: 0;
-  margin: auto;
-}
-button.butao2{
-  position: absolute;
-  top: 160px;
-  right: 580px;
-  background: rgb(156, 23, 208);
-  color: white;
-  font-size: 20px;
-  padding: 8px 20px;
-  cursor: pointer;
-  border: 0;
-  margin: auto;
 }
 
-h3.ponto1{
-  position: absolute;
-  top: 70px;
-  left: 900px;
-  font-size: 70px;
-  color: rgb(194, 194, 194);
-  text-shadow: 0px 0px 5px rgb(195, 9, 9);
-  margin: auto;
-}
-h3.ponto2{
-  position: absolute;
-  top: 70px;
-  left: 590px;
-  font-size: 70px;
-  color: rgb(194, 194, 194);
-  text-shadow: 0px 0px 5px rgb(195, 9, 9);
-  margin: auto;
+.butao1{
+  font-size: 50px;
+  background: powderblue;
+  position: relative;
+  left: 160px;
+  cursor: pointer;
 }
 
-button.reset{
-  position: absolute;
-  top: 160px;
-  right: 730px;
-  background: rgb(15, 96, 178);
-  color: white;
-  font-size: 20px;
-  padding: 8px 20px;
+.butao2{
+  font-size: 50px;
+  background: powderblue;
+  position: relative;
+  left: 160px;
   cursor: pointer;
-  border: 0;
-  margin: auto;
 }
